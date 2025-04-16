@@ -1,6 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 import SearchBar from '@/components/SearchBar';
+import Carrusel from '@/components/Carrusel';
 
 export default function HomePage() {
   return (
@@ -14,6 +15,7 @@ export default function HomePage() {
         <Link className='content-center' href="/">Amigos</Link>
         <SearchBar />
       </div>
+      <Carrusel />
     </div>
   );
 }
